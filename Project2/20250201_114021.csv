@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite,Chrome 132.0.0.0,Test_Suite,,01-02-2025 11:40:29,01-02-2025 11:41:31,1m - 1.808s,PASSED
+,,,,,,,
+Test Cases/Valid_Test_Case,Chrome 132.0.0.0,,,01-02-2025 11:40:29,01-02-2025 11:41:14,44.468s,PASSED
+,,,,,,,
+Test Cases/Invalid_Test_Case,Chrome 132.0.0.0,Invalid_Test_Case,,01-02-2025 11:41:14,01-02-2025 11:41:31,16.703s,PASSED

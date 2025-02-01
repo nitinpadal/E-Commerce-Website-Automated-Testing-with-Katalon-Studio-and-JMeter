@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Invalid_Test_Case</description>
+   <name>Invalid_Test_Case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c75272d2-ae7b-44c8-b4da-3f66e9c9cc84</testCaseGuid>
+</TestCaseEntity>

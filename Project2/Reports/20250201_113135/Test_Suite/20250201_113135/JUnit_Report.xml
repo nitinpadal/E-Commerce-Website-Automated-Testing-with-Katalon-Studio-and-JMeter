@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_Suite" time="38.668" tests="2" failures="0" errors="0">
+   <testsuite name="Test_Suite" tests="2" failures="0" errors="0" time="38.668" skipped="0" timestamp="01-02-2025T11:31:47" hostname="nitin - 10.35.129.170" id="Test Suites/Test_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\nitin\\Katalon Studio\\Project2\\Reports\\20250201_113135\\Test_Suite\\20250201_113135"/>
+         <property name="logFiles" value="C:\\Users\\nitin\\Katalon Studio\\Project2\\Reports\\20250201_113135\\Test_Suite\\20250201_113135\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nitin - 10.35.129.170"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="10.35.129.170"/>
+         <property name="sessionId" value="3ed32cba8aaa12c60224009145734950"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Valid_Test_Case" time="24.65" classname="Test Cases/Valid_Test_Case" status="PASSED">
+         <system-out><![CDATA[01-02-2025T11:31:47 - [TEST_CASE][PASSED] - Test Cases/Valid_Test_Case: Test Cases/Valid_Test_Case
+
+01-02-2025T11:31:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2025T11:31:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2025T11:31:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2025T11:31:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2025T11:31:53 - [TEST_STEP][PASSED] - navigateToUrl("https://qa-practice.netlify.app/auth_ecommerce"): Navigate to 'https://qa-practice.netlify.app/auth_ecommerce' successfully
+
+01-02-2025T11:32:00 - [MESSAGE][PASSED] - Navigate to 'https://qa-practice.netlify.app/auth_ecommerce' successfully
+
+01-02-2025T11:32:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/button_Learn with RV - YouTube_sidebarCollapse")): Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Learn with RV - YouTube_sidebarCollapse' is clicked on
+
+01-02-2025T11:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Learn with RV - YouTube_sidebarCollapse' is clicked on
+
+01-02-2025T11:32:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Email_emailAddress"), "admin@admin.com"): Text 'admin@admin.com' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Email_emailAddress'
+
+01-02-2025T11:32:02 - [MESSAGE][PASSED] - Text 'admin@admin.com' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Email_emailAddress'
+
+01-02-2025T11:32:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Password_password'
+
+01-02-2025T11:32:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Password_password'
+
+01-02-2025T11:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/button_Submit")): Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Submit' is clicked on
+
+01-02-2025T11:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Submit' is clicked on
+
+01-02-2025T11:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/button_ADD TO CART")): Object: 'Object Repository/Page_QA Practice  Learn with RV/button_ADD TO CART' is clicked on
+
+01-02-2025T11:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/button_ADD TO CART' is clicked on
+
+01-02-2025T11:32:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_918.99_cart-quantity-input"), 0): Object 'Object Repository/Page_QA Practice  Learn with RV/input_918.99_cart-quantity-input' is present
+
+01-02-2025T11:32:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-02-2025T11:32:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QA Practice  Learn with RV/input_918.99_cart-quantity-input' is present
+
+01-02-2025T11:32:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/button_PROCEED TO CHECKOUT")): Object: 'Object Repository/Page_QA Practice  Learn with RV/button_PROCEED TO CHECKOUT' is clicked on
+
+01-02-2025T11:32:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/button_PROCEED TO CHECKOUT' is clicked on
+
+01-02-2025T11:32:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Phone number_phone"), "1234567890"): Text '1234567890' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Phone number_phone'
+
+01-02-2025T11:32:05 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Phone number_phone'
+
+01-02-2025T11:32:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Street_street"), "LPU"): Text 'LPU' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Street_street'
+
+01-02-2025T11:32:05 - [MESSAGE][PASSED] - Text 'LPU' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Street_street'
+
+01-02-2025T11:32:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_City_city"), "Phagwara"): Text 'Phagwara' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_City_city'
+
+01-02-2025T11:32:06 - [MESSAGE][PASSED] - Text 'Phagwara' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_City_city'
+
+01-02-2025T11:32:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_QA Practice  Learn with RV/select_Select a country.              Afgha_f92af3"), "India", true): All options with value 'India' are selected in object 'Object Repository/Page_QA Practice  Learn with RV/select_Select a country.              Afgha_f92af3'  using regular expression
+
+01-02-2025T11:32:11 - [MESSAGE][PASSED] - All options with value 'India' are selected in object 'Object Repository/Page_QA Practice  Learn with RV/select_Select a country.              Afgha_f92af3'  using regular expression
+
+01-02-2025T11:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/button_Submit Order")): Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Submit Order' is clicked on
+
+01-02-2025T11:32:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Submit Order' is clicked on
+
+01-02-2025T11:32:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/div_Congrats Your order of  918.99  has bee_00021c"), "Congrats! Your order of $918.99 has been registered and will be shipped to LPU, Phagwara - India."): Actual text and expected text of test object 'Object Repository/Page_QA Practice  Learn with RV/div_Congrats Your order of  918.99  has bee_00021c' are matched.
+
+01-02-2025T11:32:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_QA Practice  Learn with RV/div_Congrats Your order of  918.99  has bee_00021c' are matched.
+
+01-02-2025T11:32:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2025T11:32:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invalid_Test_Case" time="13.563" classname="Test Cases/Invalid_Test_Case" status="PASSED">
+         <system-out><![CDATA[01-02-2025T11:32:12 - [TEST_CASE][PASSED] - Test Cases/Invalid_Test_Case: Test Cases/Invalid_Test_Case
+
+01-02-2025T11:32:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2025T11:32:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2025T11:32:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2025T11:32:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2025T11:32:14 - [TEST_STEP][PASSED] - navigateToUrl("https://qa-practice.netlify.app/auth_ecommerce"): Navigate to 'https://qa-practice.netlify.app/auth_ecommerce' successfully
+
+01-02-2025T11:32:23 - [MESSAGE][PASSED] - Navigate to 'https://qa-practice.netlify.app/auth_ecommerce' successfully
+
+01-02-2025T11:32:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/button_Learn with RV - YouTube_sidebarCollapse")): Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Learn with RV - YouTube_sidebarCollapse' is clicked on
+
+01-02-2025T11:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Learn with RV - YouTube_sidebarCollapse' is clicked on
+
+01-02-2025T11:32:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Email_emailAddress"), "demo@gmail.com"): Text 'demo@gmail.com' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Email_emailAddress'
+
+01-02-2025T11:32:24 - [MESSAGE][PASSED] - Text 'demo@gmail.com' is set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Email_emailAddress'
+
+01-02-2025T11:32:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/input_Password_password"), "PblvLzUlPsM="): Text ****** has been set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Password_password'
+
+01-02-2025T11:32:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_QA Practice  Learn with RV/input_Password_password'
+
+01-02-2025T11:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/button_Submit")): Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Submit' is clicked on
+
+01-02-2025T11:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/button_Submit' is clicked on
+
+01-02-2025T11:32:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_QA Practice  Learn with RV/div_Bad credentials Please try again Make s_5a4980"), "Bad credentials! Please try again! Make sure that you've registered."): Actual text and expected text of test object 'Object Repository/Page_QA Practice  Learn with RV/div_Bad credentials Please try again Make s_5a4980' are matched.
+
+01-02-2025T11:32:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_QA Practice  Learn with RV/div_Bad credentials Please try again Make s_5a4980' are matched.
+
+01-02-2025T11:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QA Practice  Learn with RV/div_Bad credentials Please try again Make s_5a4980")): Object: 'Object Repository/Page_QA Practice  Learn with RV/div_Bad credentials Please try again Make s_5a4980' is clicked on
+
+01-02-2025T11:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QA Practice  Learn with RV/div_Bad credentials Please try again Make s_5a4980' is clicked on
+
+01-02-2025T11:32:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2025T11:32:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-02-2025T11:31:47 - [TEST_SUITE][PASSED] - Test_Suite: Test Cases/Invalid_Test_Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
